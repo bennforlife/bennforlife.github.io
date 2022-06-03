@@ -16,7 +16,7 @@ menu_settings:
 footer_settings:
   logo_image: /images/logo.svg
   logo_width: 100
-  tagline: A beautiful, minimal portfolio Jekyll theme
+  tagline: Hey! I make websites and stuff
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg
