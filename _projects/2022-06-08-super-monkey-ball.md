@@ -4,7 +4,7 @@ subtitle: Website design and development for SEGA.
 date: 2022-09-16 00:00:00
 description: 
 featured_image: smb-1.jpg
-accent_color: '#4C60E6'
+accent_color: '#0fc018'
 gallery_images:
   - smb-1.jpg
   - smb-2.jpg
