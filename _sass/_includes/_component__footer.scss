@@ -7,6 +7,7 @@
 .footer {
 	@include transition(all 0.4s ease-in-out 0.8s);
 	padding: 64px 0;
+	background-color: #f9f9fa;
 
 	.footer__logo {
 		justify-self: center;
