@@ -179,7 +179,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: ""
+  analytics_code: '<script defer data-domain="benschilling.com" src="https://plausible.io/js/script.outbound-links.js"></script>'
   custom_styles: ""
   header_js: ""
   footer_js: ""
