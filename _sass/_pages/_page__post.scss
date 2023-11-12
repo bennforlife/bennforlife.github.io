@@ -21,6 +21,15 @@
     width: 100%;
     max-width: 1440px;
     margin: auto;
+
+    &--attr {
+      margin: 5px auto 0;
+      font-style: italic;
+
+      a {
+        font-weight: 400;
+      }
+    }
   }
 
   .post__content.highlight-first p:first-child {
@@ -163,7 +172,7 @@
             text-align: center;
             color: $text-light-color;
           }
-          
+
           p {
             display: inline;
             max-width: 100%;
@@ -188,8 +197,10 @@
       }
     }
 
-    ul, ol {
-      ul, ol {
+    ul,
+    ol {
+      ul,
+      ol {
         max-width: 100%;
         padding-left: 25px;
       }
@@ -212,6 +223,11 @@
 
     .highlighter-rouge {
       margin: 32px 0;
+      width: calc(100vw - 76px);
+      max-width: 1140px;
+      background: #282a36;
+      color: #f8f8f2;
+      padding: 3px 5px;
     }
 
     hr {
@@ -343,7 +359,8 @@
     display: block;
     width: 20px;
     height: 12px;
-    background: url($baseurl + "/images/icons/arrow-left-gray.svg") center center no-repeat;
+    background: url($baseurl + "/images/icons/arrow-left-gray.svg") center
+      center no-repeat;
     position: absolute;
     top: calc(50% - 6px);
   }
